@@ -1,0 +1,33 @@
+
+
+#filedMaintenanceReports
+{
+	position: absolute;
+	top: 30%;
+	margin-left: 200px;
+	width: 100%;
+	height: 200px;
+
+}
+
+#reportFeedback
+{
+	display: none;
+}
+
+textarea
+{
+	height: 200px;
+	width: 400px;
+}
+
+#pageTitle
+{
+	width:20%;
+	margin: 0 auto;
+}
+
+.reportRow 
+{
+	padding-bottom: 20px;
+}

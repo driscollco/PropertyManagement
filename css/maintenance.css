@@ -1,0 +1,20 @@
+table a
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+
+table a:hover
+{
+	color: #FFFFFF;
+}
+
+.inputButton
+{
+	color:#FFFFFF;
+	background-color: #0B2161;
+	border: 2px solid	#0B2161;
+	border-radius: 5px;
+	height: 40px;
+	width: 140px;
+}

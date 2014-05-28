@@ -1,0 +1,39 @@
+
+#RentView
+{
+	padding-top: 2px;
+	width: 60%;
+	margin:0 auto;
+}
+
+#SearchRow
+{
+margin-bottom:100px;
+}
+
+#tenantsTable
+{
+	width: 700px;
+}
+
+#pageTitle
+{
+	width:20%;
+	margin: 0 auto;
+}
+
+#searchTable td
+{
+	padding-right: 30px;
+}
+
+table a
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+
+table a:hover
+{
+	color: #FFFFFF;
+}

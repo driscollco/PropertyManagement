@@ -1,0 +1,409 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/**************************************/
+/* Styling for General Page Structure */
+/**************************************/
+
+body {
+	background-image: url(../graphics/bg.png);
+	background-color: rgba(0,0,0,1);
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 960px;
+	/*height: 603px; Leave height commented out for auto height */
+	background: transparent;	
+	margin: 0 auto;
+}
+
+#header {
+	width: 960px;
+	height: 100px;
+	background: transparent;	
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: relative;
+}
+
+#content {
+	width: 960px;
+	height: 460px;
+	background: white;	
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+}
+
+.tempHeader {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#footer {
+	width: 960px;
+	height: 100px;
+	background: transparent;	
+	margin: 0;
+	padding: 0 0 0 0;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+#wrapFooterText {
+	width: 960px;
+	height: 30px;
+	background-color: transparent;
+	position: absolute;
+	bottom: 35px;
+}
+
+.footerHeader {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+.footerPara {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+}
+
+/**************************************/
+/*    Styling for Page Navigation     */
+/**************************************/
+
+#wrapNavigation {
+	margin: 0 0 0 0;
+	padding: 0;
+	background-color: transparent;
+	height: 50px;	
+	width: 960px;
+	position: absolute;
+	bottom: 25px;
+}
+
+#wrapNavigation ul {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapNavigation ul li {
+	display:inline;
+	margin: 0 0 0 50px;
+}
+
+#wrapNavigation ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 40px;
+}
+
+#wrapNavigation ul > li:first-child {
+	margin: 0;
+}
+
+/********************************/
+/* reusable content div styles  */
+/********************************/
+.wrapContentTop {
+	background-color: rgba(0,153,102,0);
+	height: 50px;	
+}
+
+.wrapContentLeft {
+	width: 465px;
+	height: 410px;
+	background-color: rgba(255,255,255,1);
+	float: left;
+	margin: 0;
+	padding-top: 50px;
+	padding-left: 15px;
+}
+
+.wrapContentLeftContact {
+	width: 465px;
+	height: 410px;
+	background-color: rgba(255,255,255,1);
+	float: left;
+	margin: 0;
+	padding-top: 0;
+	padding-left: 15px;
+}
+
+.wrapContentRight {
+	width: 480px;
+	height: 410px;
+	background-color: rgba(0,0,204,0);
+	float: left;
+}
+
+#aboutSlider {
+	margin: 93px 0 0 40px;
+}
+
+/********************************/
+/*    Styling for index.php     */
+/********************************/
+
+/*#homeImg {
+	position:absolute;
+	z-index: 1;
+}*/
+
+#wrapHomeText {
+	width: 300px;
+	height: 450px;
+	background-color: rgba(0,204,255,0.4);
+	position: absolute;
+	z-index: 10;
+	color: white;
+	padding: 5px;
+	margin: 0;
+}
+
+#wrapHomeText p {
+	margin: 10px 0 0 0;
+	padding: 0;	
+}
+
+#homeTextHeader {
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+.slider {
+  /*margin: 10px 0; old values */
+  margin: 0;
+  padding: 0;
+  width: 9600px; /* Update to your slider width */
+  height: 460px; /* Update to your slider height */
+  position: absolute;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.slider li {
+  display: none;
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  z-index: 3;
+}
+
+/********************************/
+/*    Styling for signIn.php    */
+/********************************/
+
+#wrapSignIn {
+	width: 380px;
+	height: 260px;
+	margin: 0;
+	padding: 0;
+	border-color: rgba(102,102,102,1);
+	border-width: 2px;
+	border-style: solid;
+	position: absolute;
+	bottom: 100px;
+	left: 290px;
+}
+
+.formLabel {
+	width: 120px;
+	height: 30x;
+	/*background-color: red;*/
+	float: left;
+	font-size: 24px;
+	text-align: right;
+	padding: 0;
+	margin: 17px 0 0 0;
+}
+
+.formTextField {
+	width: 220px;
+	height: 30px;
+	padding: 0;
+	margin: 15px 0 0 4px;
+	font-size: 18px;
+}
+
+.wrapFormButtons {
+	width: 380px;
+	height: 50px;
+	/*background-color: green;*/
+	position:absolute;
+	bottom: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+.formButton {
+	width: 150px;
+	height: 50px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+
+#wrapErrorMessage {
+	height: 20px;
+	color: red;
+	text-align: center;
+	font-size: 14px;
+	overflow: visible;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+#signInHeader {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#registerLink {
+	text-decoration: none;
+}
+
+/**********************************/
+/*    Styling for register.php    */
+/**********************************/
+
+#wrapRegister {
+	width: 700px;
+	height: 400px;
+	/*background-color: blue;*/
+	padding: 0;
+	margin: 0 auto;
+}
+
+#registrationHeader {
+	text-align: center;
+	margin: 0 0 15px 0;
+	padding: 0;
+	font-size: 30px;
+}
+
+.registerFormLabel {
+	width: 190px;
+	height: 30x;
+	/*background-color: red;*/
+	font-size: 24px;
+	text-align: right;
+	padding: 0;
+	margin: 7px 0 0 0;	
+	display: inline-block;
+}
+
+.registerFormTextField {
+	
+}
+
+#registerFormLabelLastName {
+	width: 115px;
+	height: 30x;
+	/*background-color: red;*/
+	font-size: 24px;
+	text-align: right;
+	padding: 0;
+	margin: 7px 0 0 0;	
+	display: inline-block;
+}
+
+
+#registerFormLabelState {
+	width: 60px;
+	height: 30x;
+	/*background-color: red;*/
+	font-size: 24px;
+	text-align: right;
+	padding: 0;
+	margin: 7px 0 0 0;	
+	display: inline-block;
+}
+
+#registerFormLabelZip {
+	width: 50px;
+	height: 30x;
+	/*background-color: red;*/
+	font-size: 24px;
+	text-align: right;
+	padding: 0;
+	margin: 7px 0 0 0;	
+	display: inline-block;
+}
+
+#wrapRegisterFormButtons {
+	height: 50px;
+	text-align: center;
+}
+
+#registrationError {
+	
+}
+
+#emailError {
+	color: red;
+	text-align: center;
+	font-size: 14px;
+	margin: 0 0 0 0;
+	padding: 0;
+}
+
+.available {
+	color: rgba(0,255,0,1);	
+}
+
+.taken {
+	color: rgba(255,0,0,1);	
+}
+
+#cancelRegisterLink {
+	text-decoration: none;
+}
+
+#wrapRegister2 {
+	margin: 0 auto;
+	padding: 0;
+	width: 600px;
+	height: 100px;
+	/*background-color: red;*/
+	text-align: center;
+}
+
+#register2Submit {
+	text-align: left;
+	margin-right: 300px;
+	margin-top: 10px;
+}
+
+#r2Message {
+	margin: 0 100px 0 0;
+	padding: 0;
+	color: rgba(255,0,0,1);	
+}
+
+.servicesHeader {
+	font-size: 36px;
+	margin: 7px 0 0 0;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+
+#wrapServices {
+	width: 960px;
+	height: 460px;
+	padding: 10px;
+	text-align: center;
+	font-size: 28px;
+	background-image: url(../graphics/servicesbg.jpg);
+	font-weight: bold;

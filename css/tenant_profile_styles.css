@@ -1,0 +1,28 @@
+#personalInformation, #tenantButtons, #parking
+{
+	width: 70%;
+	margin: 0 auto;
+}
+
+td
+{
+	padding-right: 60px;
+	padding-top: 8px;
+}
+
+.address
+{
+	width: 400px;
+}
+
+#saveText
+{
+   	color: #00FF00;
+	font-style:italic;
+}
+
+#pageTitle
+{
+	width:20%;
+	margin: 0 auto;
+}
